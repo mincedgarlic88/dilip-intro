@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dilip - Football Player</title>
+  <style>
+    body {
+      background-color: #b71c1c;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      margin-top: 100px;
+      background: rgba(0,0,0,0.3);
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #ffeb3b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hello, I'm <span class="highlight">Dilip</span></h1>
+    <p>I am a passionate football player.</p>
+    <p>I have <span class="highlight">6 years</span> of experience.</p>
+    <p>Welcome to my personal website!</p>
+  </div>
+</body>
+</html>
